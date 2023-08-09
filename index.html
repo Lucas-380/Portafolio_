@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lucas Dure | Desarrollador Front-End</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZXJBVDf7R4JqmSpopVPoduIGWx1IwpBM"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+
+</head>
+
+<body>
+    <div class="svg-wrap">
+        <svg width="64" height="64" viewBox="0 0 64 64">
+            <path id="arrow-left"
+                d="M26.667 10.667q1.104 0 1.885 0.781t0.781 1.885q0 1.125-0.792 1.896l-14.104 14.104h41.563q1.104 0 1.885 0.781t0.781 1.885-0.781 1.885-1.885 0.781h-41.563l14.104 14.104q0.792 0.771 0.792 1.896 0 1.104-0.781 1.885t-1.885 0.781q-1.125 0-1.896-0.771l-18.667-18.667q-0.771-0.813-0.771-1.896t0.771-1.896l18.667-18.667q0.792-0.771 1.896-0.771z">
+            </path>
+        </svg>
+
+        <svg width="64" height="64" viewBox="0 0 64 64">
+            <path id="arrow-right"
+                d="M37.333 10.667q1.125 0 1.896 0.771l18.667 18.667q0.771 0.771 0.771 1.896t-0.771 1.896l-18.667 18.667q-0.771 0.771-1.896 0.771-1.146 0-1.906-0.76t-0.76-1.906q0-1.125 0.771-1.896l14.125-14.104h-41.563q-1.104 0-1.885-0.781t-0.781-1.885 0.781-1.885 1.885-0.781h41.563l-14.125-14.104q-0.771-0.771-0.771-1.896 0-1.146 0.76-1.906t1.906-0.76z">
+            </path>
+        </svg>
+    </div>
+
+    <div class="container-fluid">
+        <!-- HEADER -->
+        <section id="header">
+
+            <!-- NAVIGATION -->
+            <nav class="navbar navbar-fixed-top navbar-default bottom">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#menu">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#header">Lucas</a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="menu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#header">Inicio</a></li>
+                            <li><a href="#about">Sobre mi</a></li>
+                            <li><a href="#portfolio">Proyectos</a></li>
+                            <li><a href="#team">Redes</a></li>
+                            <li><a href="#info">Capacidades</a></li>
+                            <li><a href="#contact">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="header-slide">
+                <div class="image-slide bg-fixed" style="background-image: url(images/slide-2.jpg);">
+                    <div class="overlay">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+
+                                    <div class="slider-content">
+                                        <h1>Hola, bienvenido a mi portafolio.</h1>
+                                        <p>Mi nombre es Lucas y soy un estudiante de programación.</p>
+                                        <p>Actualmente estoy estudiando la carrera de programador en la UTN y busco nuevos desafios y proyectos para seguir aprendiendo.</p>
+                                    </div>
+
+                                </div> 
+                            </div> 
+                        </div> 
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+    </div>
+    </section>
+
+    <!-- Sobre Mi-->
+
+    <section id="about" class="light">
+        <header class="title about-content right animated" data-animate="fadeInRight">
+            <h2>Sobre <span>Mi</span></h2>
+            <p> Buenas, como dije al inicio soy Lucas, tengo 20 años y soy de Argentina, actualmente me dedico a estudiar y capacitarme en
+                <strong>Programación en general</strong>. Empece en este mundo hace unos dos años aprendiendo desarrollo web en el area de Front-End y conceptos basicos de Back-End.
+            </p>
+            <p> Hoy en dia llevo un año en la tecnicatura de programación, y estoy activamente buscando desafios nuevos para poner en
+                practica los conocimientos que voy adquiriendo, y poder seguir aprendiendo día tras día.
+            </p>
+        </header>
+        <div class="container-img about-content left animated" data-animate="fadeInLeft">
+            <img src="images/shutterstock_1410219158.png" class="img-fluid img-aboutMe" alt="Responsive image">
+        </div>
+    </section>
+
+    <!-- PROYECTOS -->
+
+    <section id="portfolio" class="light">
+        <header class="title">
+            <h2>Proyectos</h2>
+            <p>A continuacion dejo algunos proyectos, todos estan en mi perfil de <a
+                    href="https://github.com/lucas-380/" target="_blank"><strong>GitHub</strong></a></p>
+        </header>
+
+        <div class="row">
+            <div class="container-portfolio about-content up animated" data-animate="fadeInUp">
+                <!-- PROYECTOS OBJECT -->
+                <script type="text/javascript">
+                    var portfolio = [{
+                            image: "images/shoes+.svg",
+                            title: "Shoes +",
+                            link: "https://lucas-380.github.io/repository_Shoes/",
+                            text: "Mi primer sitio web. Es un simulador de un E-commerce de zapatillas."
+                        },
+                        {
+                            image: "images/logoJoyPlay.svg",
+                            title: "JoyPlay",
+                            link: "https://joyplay.netlify.app/",
+                            text: "Este proyecto es mi primer app en React Js, es un E-commerce de videojuegos."
+                        },
+                        {
+                            image: "images/C.svg",
+                            title: "<span>C</span>",
+                            link: "https://github.com/Lucas-380/TPS_Laboratorio_1",
+                            text: "Estos son proyectos aplicando progresivamente lo aprendido en C."
+                        },
+                        {
+                            image: "images/c-sharp.svg",
+                            title: "<span>C#</span>",
+                            link: "https://github.com/Lucas-380/Progra_Labo_2/tree/master/ModeloParciales",
+                            text: "Estos son parciales de POO en C#"
+                        }
+                    ];
+                </script>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Profile -->
+
+    <section id="team" class="light">
+        <header class="title">
+            <h2><span>Perfil</span></h2>
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="wrap animated" data-animate="fadeInDown">
+                        <div class="img-team">
+                            <img src="images/profile.jpg" alt="" class="img-circle">
+                        </div>
+
+                        <h3>Lucas Dure</h3>
+                        <h5><a href="https://www.coderhouse.com/certificados/60e0e8af68956000120d3464"
+                                target="_blank">Desarrollo web </a></h5>
+                        <h5><a href="https://www.coderhouse.com/certificados/614339acb06f310018685e2f"
+                                target="_blank">JavaScript</a></h5>
+                        <h5><a href="https://www.coderhouse.com/certificados/619fc80c4c85c20044753913"
+                            target="_blank">React Js</a></h5>
+
+                        <div class="team-social">
+                            <ul class="list-inline social-list">
+                                <li><a href="https://twitter.com/LucasD_380" class="fa fa-twitter" target="_blank"></a>
+                                </li>
+                                <li><a href="https://www.linkedin.com/in/lucas-dure/" class="fa fa-linkedin"
+                                        target="_blank"></a></li>
+                                <li><a href="https://www.instagram.com/dure.ok/" class="fa fa-instagram"
+                                        target="_blank"></a></li>
+                                <li><a href="https://github.com/lucas-380/" class="fa fa-github" target="_blank"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- HABILIDADES -->
+
+    <section id="info" class="dark">
+        <header class="title">
+            <h2><span>Habilidades</span></h2>
+            <p>Estas son algunas de mis habilidades actuales.</p>
+        </header>
+
+        <div class="container experties">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="skill">
+                        <ul class="skill-bar list-unstyled">
+                            <li><span class="percentage" data-value="80%"></span><em>HTML / CSS - 2021</em></li>
+                            <li><span class="percentage" data-value="65%"></span><em>JavaScript - 2022</em></li>
+                            <li><span class="percentage" data-value="50%"></span><em>React Js - 2022</em></li>
+                            <li><span class="percentage" data-value="80%"></span><em>C - 2023</em></li>
+                            <li><span class="percentage" data-value="80%"></span><em>C# - 2023</em></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="skill">
+                        <ul class="skill-bar list-unstyled">
+                            <li><span class="percentage" data-value="70%"></span><em>POO</em></li>
+                            <li><span class="percentage" data-value="68%"></span><em>GitHub</em></li>
+                            <li><span class="percentage" data-value="85%"></span><em>Trabajo en equipo</em></li>
+                            <li><span class="percentage" data-value="80%"></span><em>Pack Office</em></li>
+                            <li><span class="percentage" data-value="30%"></span><em>Ingles</em></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <!-- FOOTER CONTACTO -->
+
+    <section id="contact" class="dark">
+        <header class="title">
+            <h2><span>Contacto</span></h2>
+            <p>Puedes mandarme un mensaje desde acá o enviarme un mail directo a mi correo.</p>
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 animated" data-animate="fadeInLeft">
+                    <form id="form" action="https://formspree.io/f/mbjqvdyl" method="POST">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input name="name" type="text" class="form-control" placeholder="Tu nombre">
+                            </div>
+                            <div class="col-md-6">
+                                <input name="email" type="email" class="form-control" placeholder="Tu correo">
+                            </div>
+                            <div class="col-md-12">
+                                <textarea name="message" class="form-control" rows="3" placeholder="Escribe tu mensaje..."></textarea>
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-default submit">Enviar mensaje</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-md-4 animated" data-animate="fadeInRight">
+                    <address>
+                        <span><i class="fa fa-phone fa-lg"></i> +54 9 11 5337-4161</span>
+                        <span><i class="fa fa-envelope-o fa-lg"></i> <a
+                                href="mailto:LucasDure380@gmail.com">LucasDure380&#64;gmail.com</a></span>
+                    </address>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>Made BY <i class="fa fa-heart"></i> <a href="http://templatestock.co">Template Stock</a></p>
+                    <p>Modificado por <i class="fa fa-coffee"></i> Lucas Dure</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </div>
+
+    <!-- SCRIPT -->
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/form.js"></script>
+</body>
+
+</html>
